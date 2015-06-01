@@ -2596,8 +2596,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #950000;
-  border-color: #6b0101;
+  background-color: #cc0000;
+  border-color: #b30000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2951,8 +2951,8 @@ tbody.collapse.in {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.eot');
-  src: url('../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('../../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../../../plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -4939,13 +4939,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
 }
 .breadcrumb {
-  padding: 2px 0px 4px 0px;
+  padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #414040;
+  background-color: #f5f5f5;
   border-radius: 4px;
-  color:#fff;
-  font-size:12px;
 }
 .breadcrumb > li {
   display: inline-block;

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>VTEM Image Stack</name>
+	<author>Nguyen Van Tuyen</author>
+	<creationDate>10/10/2012</creationDate>
+	<copyright>(C) 2011 vtem.net - All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>tuyen0110@gmail.com</authorEmail>
+	<authorUrl>www.vtem.net</authorUrl>
+	<version>1.0</version>
+	<description>
+	VTEM Image Stack...
+	</description>
+	<files>
+		<filename module="mod_vtem_imagestack">mod_vtem_imagestack.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl/</folder>
+	</files>
+	<config>
+	  <fields name="params">
+		<fieldset name="basic">
+		<field name="slideID" type="text" default="vtemimagestack1" label="Module unique ID" description="Unique ID for module (must be unique if you have two or more modules on one page) (i.e. slideshow1)"/>
+	  <field name="width" type="text" default="650" label="Width" description="Width of Slideshow in px" />
+	  <field name="height" type="text" default="250" label="Height" description="Height of Slideshow in px" />
+	  <field name="imagePath" type="text" default="images/sampledata/fruitshop" label="Images Directory" description="Location of images to be used in the rotation" size="35" />
+		<field name="sortCriteria" type="list" default="0" label="Sort Criteria" description="The sort criteria of the images files">
+			<option value="0">Alphabetical</option>
+			<option value="1">Creation Date</option>
+		</field>
+		<field name="sortOrder" type="list" default="0" label="Sort Order" description="The sort order of the images files">
+			<option value="0">Ascending</option>
+			<option value="1">Descending</option>
+			<option value="2">Random</option>
+		</field>
+		<field name="sortOrderManual" type="text" default="" label="Manual Sort Order" description="Comma seperated list of images that describe the order - Example: image3.jpg,image2.jpg,image1.jpg - this will override Sort Criteria if set" />
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+		<field name="largeFeatureWidth" type="text" default="400" label="Large image width" description="Three different possibilities. Value of '0' means take original image width. Between '0' and '1', multiply by original image width. Greater than '1', replace with original image width." />
+		<field name="largeFeatureHeight" type="text" default="210" label="Large image height" description="See above, but for height instead of width." />
+		<field name="smallFeatureWidth" type="text" default="250" label="Small image width" description="Three different possibilities. Value of '0' means take HALF original image width. Between '0' and '1', multiply by original image width. Greater than '1', replace with original image width." />
+		<field name="smallFeatureHeight" type="text" default="120" label="Small image height" description="See above, but for height instead of width." />
+		<field name="topPadding" type="text" default="10" label="Top padding" description="How much to pad the top of the module from the top edge of the container." />
+		<field name="sidePadding" type="text" default="15" label="Side padding" description="How much to pad the sides of the carousel from the left and right edges of the container." />
+		<field name="smallFeatureOffset" type="text" default="50" label="Small image offset" description="How much to ADDITIONALLY pad the two small flanking features from the top edge of the module." />
+		<field name="startingFeature" type="text" default="1" label="starting image" description="Features are numbered starting from 1, in the order they place placed in the HTML. This indicates which feature will begin in the center." />
+		<field name="carouselSpeed" type="text" default="1000" label="Speed" description="Speed in milliseconds it takes for one rotation to complete." />
+		<field name="counterStyle" type="radio" default="1" label="Counter style" description="A value of 'Style1' will display counter blips with numbers. A value of 'Style2' will display counter blips without numbers. A value of 'None' will place numbers in within the storyinfo text.">
+			<option value="1">Style1</option>
+			<option value="2">Style2</option>
+			<option value="3">None</option>
+		</field>
+		<field name="autoPlay" type="text" default="2000" label="Auto play" description="If greater than '0', time in milliseconds the carousel will wait before automatically rotating." />
+		<field name="displayCutoff" type="text" default="0" label="Display cutoff" description="If greater than '0', will only use this amount of features within the carousel. Any after this number will be ignored." />
+		<field name="preload" type="radio" default="0" label="Preload" description="A value of 'Yes' will preload the images in the carousel before displaying it. A value of 'No' will display the carousel without preloading.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="jquery" type="radio" default="0" label="Jquery library" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		</fieldset>
+	 </fields>
+   </config>
+</extension>

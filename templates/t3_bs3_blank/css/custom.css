@@ -1,0 +1,329 @@
+/* CSS Document */
+body 
+{
+    font-family:Tahoma;
+    background:url('../images/background.png');
+}
+#bodyall
+{
+    margin:0px auto;width:960px;
+}
+.homeicon
+{
+    
+    padding:10px 0px 0px 20px;
+    float:left;
+}
+
+#gioithieu
+{
+    
+    height:400px;
+}
+#gioithieuwrap
+{
+    width:1000px;
+}
+#gioithieu1
+{
+    background:url('../images/gioithieu1.png') center no-repeat;
+    width:370px;
+    height:370px;    
+    float:left;
+}
+#video
+{
+        
+}
+#tieudegioithieu
+{
+    padding:45px 0px 0px 20px;
+    width:350px;
+    color:#f44d23;
+    font-size:25px;
+    font-weight:bolder;
+    text-shadow: -1px 0 #525252, 0 1px #525252, 1px 2px #525252, 0 -1px #525252;
+}
+#contentgioithieu
+{
+    color:#fffbfb;
+    text-shadow:1px 1px #a2a1a1;
+    padding:25px 0px 0px 20px;
+}
+.tieudegiua
+{
+    background:url('../images/bongduoi.png') no-repeat;
+    background-position:top center;
+    font-size:25px;    
+    padding-top:40px;
+    text-align:center;
+    text-shadow: -1px 0 #dbdada, 0 1px #dbdada, 1px 2px #dbdada, 0 -1px #dbdada;
+    
+}
+#wrapper {
+	
+	width: 960px;
+	height: 200px;
+	position: inherit;
+	padding:50px 0px 50px 0px;
+}
+.caroufredsel_wrapper {
+	margin-top: -25px !important;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+#carousel {
+
+}
+#carousel div {
+	float: left;
+	width: 290px;
+	height: 150px;
+}
+#carousel img {
+	border: none;
+	position: relative;
+	box-shadow: 0 0 10px #000;
+}
+#nav {
+	width: 520px;
+	margin-left: -230px;
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+}
+#next {
+	float: right;
+}
+#prev, #next {
+	text-decoration: none;
+	color: #b98;
+}
+#prev:hover, #next:hover {
+	text-decoration: none;
+	color: #fff;
+}
+#prev.disabled, #next.disabled {
+	color: #865;
+	cursor: default;
+}
+#wrapper_doitac, #carousel_doitac, #carousel_doitac > div {
+	width: 925px;
+	height: 350px;	
+	left:17px;
+}
+#wrapper_doitac {	
+	overflow: hidden;
+	position: relative;
+	margin-top:30px;
+}
+#bg_doitac {
+	background-color: #ccc;
+	width: 925px;
+	height: 270px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	border-radius: 10px;
+}
+#carousel_doitac {
+	position: inherit;
+	z-index: 2;
+}
+#carousel_doitac div {
+	position: relative;
+	float: left;
+}
+#carousel_doitac div > * {
+	position: absolute;
+}
+#carousel_doitac img.img-front {
+	left: 0px;
+	top: 0;
+	z-index: 4;
+}
+#carousel_doitac img.img-back {
+	left: 200px;
+	top: 50px;
+	z-index: 3;
+}
+#carousel_doitac h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 0 2px rgba(0,0,0,0.5);
+	width: 300px;
+	left: 550px;
+	top: 110px;
+	margin: 0;
+}
+#carousel_doitac p {
+	color: #666;
+	font-size: 16px;
+	text-shadow: 0 1px 1px #fff;
+	width: 290px;
+	left: 560px;
+	top: 150px;
+	margin: 0;
+}
+#carousel_doitac a {
+	color: #fff;
+	font-size: 18px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	outline: none;
+	display: block;
+	background-color: #888;
+	border: 1px solid #666;
+	width: 175px;
+	height: 40px;
+	left: 600px;
+	top: 270px;
+				
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	background-image: -moz-linear-gradient(bottom, #666 25%, #888 75%);
+	background-image: -webkit-linear-gradient(bottom, #666 25%, #888 75%);
+	background-image: -ms-linear-gradient(bottom, #666 25%, #888 75%);
+	background-image: linear-gradient(bottom, #666 25%, #888 75%);
+}
+#carousel_doitac a:hover {
+	background-color: #777;
+	background-image: -moz-linear-gradient(top, #666 25%, #888 75%);
+	background-image: -webkit-linear-gradient(top, #666 25%, #888 75%);
+	background-image: -ms-linear-gradient(top, #666 25%, #888 75%);
+	background-image: linear-gradient(top, #666 25%, #888 75%);
+}
+			
+#prev_doitac, #next_doitac {
+	background-color: #fff;
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 110px;
+	z-index: 10;
+	border-radius: 25px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#prev_doitac span, #next_doitac span {
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 19px;
+}
+#prev_doitac {
+	left: -25px;
+}
+#prev_doitac span {
+	border-right: 10px solid #ccc;
+	left: 25px;
+}
+#prev_doitac:hover span {
+	border-right-color: #999;
+}
+#next_doitac {
+	right: -25px;
+}
+#next_doitac span {
+	border-left: 10px solid #ccc;
+	right: 25px;
+}
+#next_doitac:hover span {
+	border-left-color: #999;
+}
+
+/*------------------------ Đội ngũ nhân sự -----------------------------*/
+#wrapper_doinguns
+{
+    background-image:url(../images/doingunhansu.jpg);
+    background-repeat:no-repeat;
+    background-position:top left;
+    height:300px;
+
+}
+#tieude_diunguns
+{
+    color:#fff;
+    font-size:20px;    
+    font-weight:bold;
+    padding:15px 0px 35px 15px;
+}
+#danhsachmuc
+{
+    list-style-type: none;
+    color:#fff;
+    font-size:25px;
+    margin:0px;
+    padding:15px 0px 15px 0px;
+}
+#danhsachmuc li:hover
+{
+    background:#4c603b;
+    font-size:30px;
+    font-weight:bold;
+}
+#danhsachmuc li
+{
+    padding:15px 0px 15px 0px;
+	text-align:left;
+}
+#danhsachmuc li img
+{
+     vertical-align: middle; 
+     padding-left:20px;
+}
+#danhsachmuc li p
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+#danhsachmuc li a
+{
+    text-decoration:none;
+    color:#fff;
+}
+#wrapper-danhsachmuc
+{
+     background : -webkit-linear-gradient(#8da777, #afc394); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#8da777, #afc394); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#8da777, #afc394); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#8da777, #afc394); /* Standard syntax */    
+	  float:left;    
+      width:40%;
+      border:#4b4e48 1px solid;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -khtml-border-radius: 15px;
+      border-radius: 15px;
+      
+      -moz-box-shadow: 0px 0px 10px #546245;
+      -webkit-box-shadow:  0px 0px 10px #546245;
+      box-shadow:  0px 0px 10px #546245;
+      /* For IE 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+      /* For IE 5.5 - 7 */
+      filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+      margin:25px 30px 20px 20px;
+}
+.nhansu_detail
+{
+    width:180px;
+    padding:0px 0px 0px 40px;
+    float:left;
+}
+.nhansu_detail div
+{
+    border:5px solid #1a4096;   
+    color:#1a4096;
+    background:#fff;
+    text-align:center;
+}
+.t3-module{
+	margin:15px 0px 0px 0px !important;
+}

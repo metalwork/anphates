@@ -170,15 +170,16 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	background: url(../img/bg_direction_nav.png) no-repeat;
 	position: absolute;
 	top: 50%;
+
 	cursor: pointer;
 	text-indent: -999em;
 }
 .flex-direction-nav li .next {
 	background-position: -52px 0;
-	right: 0;
+	right: 21px;
 }
 .flex-direction-nav li .prev {
-	left: 0;
+	left: 19px;
 }
 .flex-direction-nav li .disabled {
 	opacity: .3; filter:alpha(opacity=30);

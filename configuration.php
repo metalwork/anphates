@@ -13,9 +13,9 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'root';
-	public $password = '123';
-	public $db = 'anphates';
+	public $user = 'anphates_web2';
+	public $password = '123456';
+	public $db = 'anphates_web2';
 	public $dbprefix = 'anpaes_';
 	public $live_site = '';
 	public $secret = 'dmGR1TNnHwgR266w';

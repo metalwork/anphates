@@ -2,7 +2,6 @@
 body 
 {
     font-family:Tahoma;
-    background:url('../images/background.png');
 }
 #bodyall
 {
@@ -290,7 +289,7 @@ body
 }
 #wrapper-danhsachmuc
 {
-     background : -webkit-linear-gradient(#8da777, #afc394); /* For Safari 5.1 to 6.0 */
+      background : -webkit-linear-gradient(#8da777, #afc394); /* For Safari 5.1 to 6.0 */
       background: -o-linear-gradient(#8da777, #afc394); /* For Opera 11.1 to 12.0 */
       background: -moz-linear-gradient(#8da777, #afc394); /* For Firefox 3.6 to 15 */
       background: linear-gradient(#8da777, #afc394); /* Standard syntax */    
@@ -326,4 +325,20 @@ body
 }
 .t3-module{
 	margin:15px 0px 0px 0px !important;
+}
+.module_menusanpham a{
+	color:#fff;	
+}
+.module_menusanpham 
+{
+  background : -webkit-linear-gradient(#c94e39, #b62006); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#c94e39, #b62006); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#c94e39, #b62006); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#c94e39, #b62006); /* Standard syntax */    
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  border-radius: 7px;
+  border:#971a05 1px solid;
+  padding:10px;
 }

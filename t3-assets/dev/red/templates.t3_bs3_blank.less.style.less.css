@@ -1,4 +1,6 @@
 .t3-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .logo {
   text-align: center;
@@ -13,19 +15,9 @@
   line-height: 1;
   margin: 0;
 }
-.logo-img{
-	text-align:center;	
-}
-.logo-image{
-	  background: -webkit-linear-gradient(#5e5e5e, #000000); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(#5e5e5e, #000000); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(#5e5e5e, #000000); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(#5e5e5e, #000000); /* Standard syntax */
-}
 .logo-image span,
 .logo-image small {
   display: none;
-
 }
 .logo-text a {
   text-decoration: none;
@@ -100,15 +92,21 @@
   }
 }
 .t3-mainbody {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .t3-content {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .t3-sidebar {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 .t3-footer {
+  border-top: 1px solid #eeeeee;
+  background: #f8f8f8;
+  color: #555555;
 }
 .t3-footer:before,
 .t3-footer:after {
@@ -123,7 +121,7 @@
   font-size: 100%;
 }
 .t3-footnav {
-  padding: 0px ;
+  padding: 20px 0;
 }
 .t3-footnav:before,
 .t3-footnav:after {
@@ -135,17 +133,19 @@
 }
 @media screen and (min-width: 768px) {
   .t3-footnav {
-    padding: 0px 0;
+    padding: 40px 0;
   }
 }
 .t3-footnav .t3-module {
-
-  margin-top: 0px;
-  margin-bottom: 0px;
+  background: #f8f8f8;
+  color: #555555;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .t3-footnav .t3-module .module-title {
   color: #333333;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 .t3-footnav .t3-module ul {
   list-style: none;
@@ -165,7 +165,7 @@
   color: #555555;
 }
 .t3-copyright {
-
+  border-top: 1px solid #eeeeee;
   font-size: 12px;
   padding: 40px 0 80px;
 }

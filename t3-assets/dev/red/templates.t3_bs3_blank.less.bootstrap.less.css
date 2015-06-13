@@ -2596,8 +2596,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #950000;
-  border-color: #6b0101;
+  background-color: #cc0000;
+  border-color: #b30000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -4231,7 +4231,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e37c61;
+  background-color: #eeeeee;
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -4340,7 +4340,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #e37c61;
+  background-color: #cc0000;
 }
 .nav-stacked > li {
   float: none;
@@ -4939,13 +4939,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
 }
 .breadcrumb {
-  padding: 2px 0px 4px 0px;
+  padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #414040;
+  background-color: #f5f5f5;
   border-radius: 4px;
-  color:#fff;
-  font-size:12px;
 }
 .breadcrumb > li {
   display: inline-block;

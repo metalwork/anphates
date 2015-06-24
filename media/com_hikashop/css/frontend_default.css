@@ -154,10 +154,10 @@ span.hikashop_product_name{
 	display:block;
 	margin-bottom:5px;
 }
-.hikashop_product_name a{color:#666; text-decoration:none; font-weight:bold; display:block}
+.hikashop_product_name a{color:#c12902; text-decoration:none; font-weight:bold; display:block;font-size:10px}
 .hikashop_product_name a:hover{color:#2C8296;}
 
-.hikashop_product_code_list a{color:#666; text-decoration:none; font-size:12px}
+.hikashop_product_code_list a{color:#6a6969; text-decoration:none; font-size:14px;font-weight:bold;}
 
 .hikashop_category_name a {color:#666; text-decoration:none; font-weight:bold; margin-top:10px; display:block}
 .hikashop_category_name a:hover{color:#2C8296;}

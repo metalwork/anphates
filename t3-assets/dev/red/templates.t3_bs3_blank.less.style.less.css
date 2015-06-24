@@ -1,6 +1,8 @@
 .t3-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background: -webkit-linear-gradient(#5f5f5f, #200b05); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#5f5f5f, #200b05); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#5f5f5f, #200b05); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#5f5f5f, #200b05); /* Standard syntax */
 }
 .logo {
   text-align: center;
@@ -92,21 +94,17 @@
   }
 }
 .t3-mainbody {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0px;
 }
 .t3-content {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 .t3-sidebar {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .t3-footer {
-  border-top: 1px solid #eeeeee;
-  background: #f8f8f8;
-  color: #555555;
 }
 .t3-footer:before,
 .t3-footer:after {
@@ -165,9 +163,7 @@
   color: #555555;
 }
 .t3-copyright {
-  border-top: 1px solid #eeeeee;
-  font-size: 12px;
-  padding: 40px 0 80px;
+  padding: 0px ;
 }
 .t3-copyright:before,
 .t3-copyright:after {

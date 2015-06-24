@@ -24,37 +24,37 @@ JHtml::_('script', 'system/html5fallback.js', false, true);
         <div id="wrapper-danhsachmuc">
             <ul id="danhsachmuc">
                 <li id="1">
-                    <a href="">
+                    <a href="index.php/be-boi">
                         <img src="images/muc/1.jpg" alt="icon" width="100px" />
                         <p>Bể bơi</p>
                     </a>
                 </li>
                 <li id="2">
-                    <a href="">
+                    <a href="index.php/doanh-nghiep-lon">
                         <img src="images/muc/2.jpg" alt="icon" width="100px" />
                         <p>Doanh nghiệp lớn</p>
                     </a>
                 </li>
                 <li id="3">
-                    <a href="">
+                    <a href="index.php/doanh-nghiep-nho">
                         <img src="images/muc/3.jpg" alt="icon" width="100px" />
                         <p>Doanh nghiệp nhỏ</p>
                     </a>
                 </li>
                 <li id="4">
-                    <a href="">
+                    <a href="index.php/dan-dung">
                         <img src="images/muc/4.jpg" alt="icon" width="100px" />
                         <p>Dân dụng</p>
                     </a>
                 </li>
                 <li id="5">
-                    <a href="">
+                    <a href="index.php/nuoi-thuy-san">
                         <img src="images/muc/5.jpg" alt="icon" width="100px" />
                         <p>Nuôi thủy sản</p>
                     </a>
                 </li>
                 <li id="6">
-                    <a href="">
+                    <a href="index.php/san-pham-2in1">
                         <img src="images/muc/6.jpg" alt="icon" width="100px" />
                         <p>Sản phẩm 2in1</p>
                     </a>

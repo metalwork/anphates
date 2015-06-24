@@ -41,7 +41,7 @@ if($displayTitle){
 ?>
 
 <div id="hikashop_product_custom_info_main" class="hikashop_product_custom_info_main">
-	<h4><?php echo JText::_('SPECIFICATIONS');?></h4>
+
 	<table width="100%">
 		<?php echo $specifFields; ?>
 	</table>

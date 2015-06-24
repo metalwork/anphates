@@ -10,7 +10,7 @@ defined('_JEXEC') or die('Restricted access');
 ?>	<span class="hikashop_product_price_full">
 	<?php
 	if(empty($this->row->prices)){
-		echo JText::_('FREE_PRICE');
+		//echo JText::_('FREE_PRICE');
 	}else{
 		$first=true;
 		echo JText::_('PRICE_BEGINNING');

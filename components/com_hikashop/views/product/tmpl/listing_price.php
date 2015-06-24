@@ -39,7 +39,7 @@ if(isset($this->row->product_msrp) && @$this->row->product_msrp > 0.0 && JReques
 	<span class="hikashop_product_price_full<?php echo $class; ?>">
 	<?php
 	if(empty($this->row->prices)){
-		echo JText::_('FREE_PRICE');
+		//echo JText::_('FREE_PRICE');
 	}else{
 		$first = true;
 		echo JText::_('PRICE_BEGINNING');

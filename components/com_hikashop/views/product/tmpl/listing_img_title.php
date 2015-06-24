@@ -52,6 +52,20 @@ if($this->params->get('show_price')){
 }
 ?>
 <!-- EO PRODUCT PRICE -->
+<hr style="margin:10px;" />
+<!-- PRODUCT CODE -->
+<span class='hikashop_product_code_list'>
+    <?php if ($this->config->get('show_code')) { ?>
+        <?php if($this->params->get('link_to_product_page',1)){ ?>
+            <a href="<?php echo $link;?>">
+        <?php }
+        echo $this->row->product_code;
+        if($this->params->get('link_to_product_page',1)){ ?>
+            </a>
+        <?php } ?>
+    <?php } ?>
+</span>
+<!-- EO PRODUCT CODE -->
 
 <!-- PRODUCT NAME -->
 <span class="hikashop_product_name">
@@ -64,21 +78,13 @@ if($this->params->get('show_price')){
 	<?php } ?>
 </span>
 <!-- EO PRODUCT NAME -->
-
-<!-- PRODUCT CODE -->
-	<span class='hikashop_product_code_list'>
-		<?php if ($this->config->get('show_code')) { ?>
-			<?php if($this->params->get('link_to_product_page',1)){ ?>
-				<a href="<?php echo $link;?>">
-			<?php }
-			echo $this->row->product_code;
-			if($this->params->get('link_to_product_page',1)){ ?>
-				</a>
-			<?php } ?>
-		<?php } ?>
-	</span>
-<!-- EO PRODUCT CODE -->
-
+<!-- button xem chi tiet -->
+<span>
+	<a href="<?php echo $link;?>">
+    	<img src="./media/com_hikashop/images/xemchitiet.png" />
+    </a>
+</span>
+<!-- EO button xem chi tiet -->
 <?php if(!empty($this->row->extraData->afterProductName)) { echo implode("\r\n",$this->row->extraData->afterProductName); } ?>
 
 <!-- PRODUCT VOTE -->

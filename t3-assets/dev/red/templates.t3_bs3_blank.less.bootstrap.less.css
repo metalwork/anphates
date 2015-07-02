@@ -4944,7 +4944,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-radius: 4px;
   color:#fff;
   font-weight:bold;
-  font-size:10px;
+  font-size:10px;  
+
 }
 .breadcrumb > li {
   display: inline-block;
